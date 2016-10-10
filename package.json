@@ -3,10 +3,14 @@
   "version": "2.0.3",
   "description": "This is component <Captcha /> wich supports properties: language, theme, type, sitekey, callback",
   "main": "index.js",
-  "author": "kot",
+  "author": "Loginov Konstantin",
   "scripts": {
     "build": "./node_modules/.bin/babel captcha.js -o index.js",
     "prepublish": "npm run build"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kotAndEgor/react-captcha/tree/master"
   },
   "babel": {
     "presets": ["es2015","stage-0"]
