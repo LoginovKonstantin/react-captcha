@@ -1,6 +1,6 @@
 {
   "name": "react-captcha",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "This is component <Captcha /> wich supports properties: language, theme, type, sitekey, callback",
   "main": "index.js",
   "author": "Loginov Konstantin",
@@ -9,18 +9,9 @@
     "prepublish": "npm run build"
   },
   "readme": "./README.md",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/kotAndEgor/react-captcha/tree/master"
-  },
-  "babel": {
-    "presets": ["es2015","stage-0"]
-  },
-  "license": "ISC",
-  "dependencies": {
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1",
-    "react-script-loader": "0.0.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotAndEgor/react-captcha/tree/master"
   },
   "babel": {
     "presets": [
@@ -30,6 +21,12 @@
     "plugins": [
       "transform-object-rest-spread"
     ]
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-script-loader": "0.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
