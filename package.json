@@ -8,7 +8,6 @@
     "build": "./node_modules/.bin/babel captcha.js -o index.js",
     "prepublish": "npm run build"
   },
-  "readme": "./README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/kotAndEgor/react-captcha/tree/master"
