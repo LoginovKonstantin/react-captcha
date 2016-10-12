@@ -1,6 +1,6 @@
 {
   "name": "react-captcha",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "This is component <Captcha /> wich supports properties: language, theme, type, sitekey, callback",
   "main": "index.js",
   "author": "Loginov Konstantin",
@@ -8,6 +8,7 @@
     "build": "./node_modules/.bin/babel captcha.js -o index.js",
     "prepublish": "npm run build"
   },
+  "readme": "./README.md",
   "repository" : {
     "type" : "git",
     "url" : "https://github.com/kotAndEgor/react-captcha/tree/master"
