@@ -1,6 +1,6 @@
 {
   "name": "react-captcha",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "This is component <Captcha /> wich supports properties: language, theme, type, sitekey, callback",
   "main": "index.js",
   "author": "Loginov Konstantin",

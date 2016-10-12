@@ -1,4 +1,6 @@
 # react-captcha
+###**Sreen**
+<img src="https://github.com/kotAndEgor/Captcha/blob/master/images/screen.png">
 ###**Install**
 >$ npm install react-captcha --save
 
